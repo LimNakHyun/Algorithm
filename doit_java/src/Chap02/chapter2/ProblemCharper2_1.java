@@ -1,4 +1,4 @@
-package chapter2;
+package Chap02.chapter2;
 
 public class ProblemCharper2_1 {
 	public static void main(String[] args) {
