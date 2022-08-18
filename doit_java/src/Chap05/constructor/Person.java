@@ -1,4 +1,4 @@
-package constructor;
+package Chap05.constructor;
 
 public class Person {
 	String name;

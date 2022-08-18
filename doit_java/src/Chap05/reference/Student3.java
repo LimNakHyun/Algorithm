@@ -1,4 +1,4 @@
-package reference;
+package Chap05.reference;
 
 public class Student3 {
 	int studentID;

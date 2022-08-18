@@ -1,6 +1,6 @@
-package test;
+package Chap05.test;
 
-import hiding.Student;
+import Chap05.hiding.Student;
 
 public class StudentTest {
 	public static void main(String[] args) {

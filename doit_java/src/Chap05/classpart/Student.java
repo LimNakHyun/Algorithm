@@ -1,4 +1,4 @@
-package classpart;
+package Chap05.classpart;
 
 public class Student {
 	int studentID;
