@@ -1,4 +1,4 @@
-package Chap02.chapter2;
+package chap02;
 
 public class TypeInference {
 	public static void main(String[] args) {
