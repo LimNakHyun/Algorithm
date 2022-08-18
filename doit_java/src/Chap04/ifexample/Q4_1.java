@@ -1,4 +1,4 @@
-package ifexample;
+package Chap04.ifexample;
 
 public class Q4_1 {
 	public static void main(String[] args) {

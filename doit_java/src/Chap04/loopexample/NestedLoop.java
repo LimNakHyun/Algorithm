@@ -1,4 +1,4 @@
-package loopexample;
+package Chap04.loopexample;
 
 public class NestedLoop {
  public static void main(String[] args) {
