@@ -1,4 +1,4 @@
-package Chap05.classpart;
+package chap05.classpart;
 
 public class FunctionTest {
 	public static void main(String[] args) {

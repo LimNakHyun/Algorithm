@@ -1,4 +1,4 @@
-package Chap05.constructor;
+package chap05.constructor;
 
 public class Student {
 	int studentID;

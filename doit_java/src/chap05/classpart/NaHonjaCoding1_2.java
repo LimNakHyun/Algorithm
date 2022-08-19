@@ -1,4 +1,4 @@
-package Chap05.classpart;
+package chap05.classpart;
 
 public class NaHonjaCoding1_2 {
 	public static void main(String[] args) {

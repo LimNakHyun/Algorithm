@@ -1,4 +1,4 @@
-package Chap05.hiding;
+package chap05.hiding;
 
 public class MyDateTest {
 	public static void main(String[] args) {
