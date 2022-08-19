@@ -1,12 +1,13 @@
-package Chap04.loopexample;
+package chap04.loopexample;
 
-public class NaHonjaCoding2 {
+public class BreakExample2 {
 	public static void main(String[] args) {
 		int sum = 0;
-		int num;
-		for(num = 1; ; num++) {
+		int num = 0;
+		
+		for(num = 0; ; num++) {
 			sum += num;
-			if(sum > 500) {
+			if(sum >= 100) {
 				break;
 			}
 		}

@@ -1,4 +1,4 @@
-package Chap04.loopexample;
+package chap04.loopexample;
 
 public class DoWhileExample {
 	public static void main(String[] args) {

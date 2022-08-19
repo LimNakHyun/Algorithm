@@ -1,4 +1,4 @@
-package Chap04.ifexample;
+package chap04.ifexample;
 
 public class SwitchCase {
 	public static void main(String[] args) {

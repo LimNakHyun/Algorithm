@@ -1,4 +1,4 @@
-package Chap04.loopexample;
+package chap04.loopexample;
 
 public class Q4_4 {
 	public static void main(String[] args) {
