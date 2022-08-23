@@ -14,5 +14,9 @@ public class StudentTest {
 		studentRodong.showStudentInfo();
 		System.out.println("====================================================");
 		studentIngu.showStudentInfo();
+		
+		Student hyegee = new Student(37, "혜지");
+		System.out.println(hyegee);
+		System.out.println(hyegee.toString());
 	}
 }

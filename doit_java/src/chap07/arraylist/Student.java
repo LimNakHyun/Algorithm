@@ -27,4 +27,9 @@ public class Student {
 		}
 		System.out.println("학생 " + studentName + "의 총점은 " + total + " 입니다.");
 	}
+	
+	@Override
+	public String toString() {
+		return studentName + ", " + studentID;
+	}
 }
