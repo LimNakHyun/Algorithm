@@ -1,0 +1,24 @@
+package library.sortingAlgorithm;
+
+public class BubbleSort {
+	//시간복잡도가 O(n^2) 인 정렬 버블솔트
+	static void swap(int[] arr, int i, int j) {
+		int temp = arr[i];
+		arr[i] = arr[j];
+		arr[j] = temp;
+	}
+	
+	public static void bubbleSort(int[] arr, boolean rev) {
+		for(int i = 0; i < arr.length - 1; i++) {
+			for(int j = i + 1; j < arr.length; j++) {
+				if(arr[i] < arr[j] && rev) {
+					swap(arr, i, j);
+				}
+				if(arr[i] > arr[j] && !rev) {
+					swap(arr, i, j);
+				}
+			}
+		}
+	}
+	
+}
