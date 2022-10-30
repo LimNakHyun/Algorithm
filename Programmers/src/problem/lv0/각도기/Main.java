@@ -11,7 +11,9 @@ public class Main {
 	public static void main(String[] args) {
 
 		Solution sol = new Solution();
-		int ans = sol.solution(91);	//예각일 때 1, 직각일 때 2, 둔각일 때 3, 평각일 때 4를 return함
+		//예각일 때 1, 직각일 때 2, 둔각일 때 3, 평각일 때 4를 return함
+//		int ans = sol.solution(91);		//answer = 3
+		int ans = sol.solution(180);	//answer = 4
 		
 		System.out.println("답 : " + ans);
 		
