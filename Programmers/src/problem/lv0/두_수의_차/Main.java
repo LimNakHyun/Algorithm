@@ -10,7 +10,8 @@ public class Main {
 	public static void main(String[] args) {
 
 		Solution sol = new Solution();
-		int ans = sol.solution(2, 3);
+		//좌측의 수에서 우측의 수를 뺀 값을 리턴
+		int ans = sol.solution(2, 3);	//answer = -1
 		
 		System.out.println("답 : " + ans);
 		
