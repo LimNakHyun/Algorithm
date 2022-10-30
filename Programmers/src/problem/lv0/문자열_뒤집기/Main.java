@@ -10,7 +10,6 @@ class Solution {
 
 public class Main {
 	public static void main(String[] args) {
-		
 		String my_string = "jaron";
 		//my_string 이 주어지면 그것을 뒤집어서 리턴
 
