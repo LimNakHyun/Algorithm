@@ -10,7 +10,8 @@ public class Main {
 	public static void main(String[] args) {
 
 		Solution sol = new Solution();
-		int ans = sol.solution(7, 2);
+		//좌측의 수를 우측의 수로 나눈 몫을 리턴
+		int ans = sol.solution(7, 2);	//answer = 3
 		
 		System.out.println("답 : " + ans);
 		
