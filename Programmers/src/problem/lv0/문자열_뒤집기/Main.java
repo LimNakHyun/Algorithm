@@ -12,9 +12,10 @@ public class Main {
 	public static void main(String[] args) {
 		
 		String my_string = "jaron";
+		//my_string 이 주어지면 그것을 뒤집어서 리턴
 
 		Solution sol = new Solution();
-		String ans = sol.solution(my_string);
+		String ans = sol.solution(my_string);	//answer = noraj
 		
 		System.out.println("답 : " + ans);
 		
