@@ -15,6 +15,7 @@ public class Main {
 		
 		int[] array = {149, 180, 192, 170};
 		int height = 167;
+		//array가 주어졌을 때 height보다 큰 수의 개수를 리턴
 
 		Solution sol = new Solution();
 		int ans = sol.solution(array, height);
