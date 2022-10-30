@@ -23,9 +23,10 @@ public class Main {
 	public static void main(String[] args) {
 		
 		int[] num_list = {1, 2, 3, 4, 5};
+		//num_list 가 주어지면 뒤집어서 리턴
 
 		Solution sol = new Solution();
-		int[] ans = sol.solution(num_list);
+		int[] ans = sol.solution(num_list);	//answer = [5, 4, 3, 2, 1]
 		
 		System.out.println("답 : " + Arrays.toString(ans));
 		
