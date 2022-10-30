@@ -10,7 +10,8 @@ public class Main {
 	public static void main(String[] args) {
 
 		Solution sol = new Solution();
-		int ans = sol.solution(40);
+		//나이를 입력하면 출생연도를 출력
+		int ans = sol.solution(40);	//answer = 1983
 		
 		System.out.println("답 : " + ans);
 		
