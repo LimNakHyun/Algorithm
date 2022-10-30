@@ -11,7 +11,8 @@ public class Main {
 	public static void main(String[] args) {
 
 		Solution sol = new Solution();
-		int ans = sol.solution(3, 2);	//num1을 num2로 나눈 값에 1,000을 곱한 후 정수 부분을 return함
+		//num1을 num2로 나눈 값에 1,000을 곱한 후 정수 부분을 return함
+		int ans = sol.solution(3, 2);	//answer = 1500
 		
 		System.out.println("답 : " + ans);
 		
