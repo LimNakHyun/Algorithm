@@ -10,7 +10,8 @@ public class Main {
 	public static void main(String[] args) {
 
 		Solution sol = new Solution();
-		int ans = sol.solution(3, 2);
+		//우측의 수를 좌측의 수로 나눈 나머지
+		int ans = sol.solution(15, 4);	//answer = 3
 		
 		System.out.println("답 : " + ans);
 		
