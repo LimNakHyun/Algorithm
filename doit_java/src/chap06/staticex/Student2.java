@@ -21,7 +21,7 @@ public class Student2 {
 	}
 	
 	public static int getSerialNum() {
-		int i = 10;
+		// int i = 10;
 		return serialNum3;
 	}
 	

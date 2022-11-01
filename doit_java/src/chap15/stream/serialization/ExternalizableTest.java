@@ -1,11 +1,11 @@
 package chap15.stream.serialization;
 
 import java.io.Externalizable;
-import java.io.FileInputStream;
+// import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInput;
-import java.io.ObjectInputStream;
+// import java.io.ObjectInputStream;
 import java.io.ObjectOutput;
 import java.io.ObjectOutputStream;
 
@@ -44,10 +44,10 @@ public class ExternalizableTest {
 			e.printStackTrace();
 		}
 		
-		FileInputStream fis = new FileInputStream("C:\\Users\\admin\\git\\Do-it-JavaProgrammingStart\\doit_java\\src\\chap15\\stream\\external.out");
-		ObjectInputStream ois = new ObjectInputStream(fis);
+		// FileInputStream fis = new FileInputStream("C:\\Users\\admin\\git\\Do-it-JavaProgrammingStart\\doit_java\\src\\chap15\\stream\\external.out");
+		// ObjectInputStream ois = new ObjectInputStream(fis);
 		
-		Maple maple = (Maple)ois.readObject();
-		System.out.println(maple);
+		// Maple maple = (Maple)ois.readObject();
+		// System.out.println(maple);
 	}
 }

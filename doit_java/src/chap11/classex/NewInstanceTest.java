@@ -5,8 +5,8 @@ public class NewInstanceTest {
 		Person person1 = new Person();
 		System.out.println(person1);
 		
-		Class pClass = Class.forName("chap11.classex.Person");
-		Person person2 = (Person)pClass.newInstance();
-		System.out.println(person2);
+		// Class pClass = Class.forName("chap11.classex.Person");
+		// Person person2 = (Person)pClass.newInstance();
+		// System.out.println(person2);
 	}
 }

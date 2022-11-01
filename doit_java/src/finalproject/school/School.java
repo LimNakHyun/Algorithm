@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class School {
 	private static School instance = new School();
 	
-	private static String SCHOOL_NAME = "정글고";
+	// private static String SCHOOL_NAME = "정글고";
 	private ArrayList<Student> studentList = new ArrayList<Student>();
 	private ArrayList<Subject> subjectList = new ArrayList<Subject>();
 	
