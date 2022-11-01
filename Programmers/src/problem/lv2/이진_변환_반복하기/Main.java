@@ -2,7 +2,7 @@ package problem.lv2.이진_변환_반복하기;
 
 import java.util.Arrays;
 
-public class Main {
+public class Main { 
 	static String zeroCnt(int[] a, String s) {
 		int zTemp = s.length();
 		s = s.replace("0", "");
