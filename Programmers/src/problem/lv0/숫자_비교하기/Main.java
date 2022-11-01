@@ -11,7 +11,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		Solution sol = new Solution();
-		int ans = sol.solution(2, 3);
+		int ans = sol.solution(2, 3);	//두 수는 다르기 때문에 -1을 리턴
 		
 		System.out.println("답 : " + ans);
 		
