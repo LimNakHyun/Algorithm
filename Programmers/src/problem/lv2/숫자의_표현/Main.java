@@ -1,6 +1,6 @@
 package problem.lv2.숫자의_표현;
 
-public class Main {
+public class Main { 
 	public static void main(String[] args) {
 		int n = 5;
 		int a = 1;
