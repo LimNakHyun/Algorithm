@@ -15,7 +15,7 @@ public class Main {
         // 문자열 s가 주어졌을 때, 그 문자열의 가운데 문자를 리턴
 
         String s = "abcde";
-        System.out.println("가운데 글자 : " + solution(s));
+        System.out.println("가운데 글자 : " + solution(s)); // 가운데 글자인 c를 리턴
     }
 
 }
