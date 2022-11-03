@@ -8,13 +8,18 @@ import library.sortingAlgorithm.CountingSort;
 public class Main {
 	
 	public static void main(String[] args) {
+		//두 배열 A, B가 주어졌을 때, 비 복원추출로 뽑은
+		//각각의 원소들의 곱의 합의 최소값을 리턴
+
 		int[] A = {1, 4, 2};
 		int[] B = {5, 4, 4};
-		
+		//위 예제에서는 1*5 + 2*4 + 4*4 = 29 일 때가 최소
+
+
 		int answer = 0;
 		
-		System.out.println("array A : " + Arrays.toString(A));
-		System.out.println("array B : " + Arrays.toString(B));
+		System.out.println("배열 A 출력 : " + Arrays.toString(A));
+		System.out.println("배열 B 출력 : " + Arrays.toString(B));
 		System.out.println();
 		
 //		BubbleSort.bubbleSort(A, false);
@@ -26,21 +31,22 @@ public class Main {
 //		for(int i = 0; i < A.length; i++) {
 //			answer += A[i] * B[i];
 //		}
-//		
 		
 		CountingSort.countingSort(A, false);
-		System.out.println("sorted A : " + Arrays.toString(A));
-		
-		System.out.println();
+		System.out.println("배열 A 정방정렬 : " + Arrays.toString(A));
 		
 		CountingSort.countingSort(B, true);
-		System.out.println("sorted B : " + Arrays.toString(B));
+		System.out.println("배열 B 역순정렬 : " + Arrays.toString(B));
 		
+		System.out.println();
+
+		String s = "";
 		for(int i = 0; i < A.length; i++) {
 			answer += A[i] * B[i];
+			s = s + String.valueOf(A[i]) + "*" + String.valueOf(B[i]) + " + ";
 		}
 		
-		System.out.println("답 : " + answer);
+		System.out.println("곱의 합 최소값 : " + s.substring(0, s.length() - 2) + "= " + answer);
 		
 	}
 }
