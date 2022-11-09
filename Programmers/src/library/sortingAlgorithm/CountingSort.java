@@ -1,7 +1,7 @@
 package library.sortingAlgorithm;
 
 public class CountingSort {
-	//시간복잡도가 O(n + k) (k 는 최댓값) 인 카운팅 솔트
+	//시간복잡도가 O(n + k) (k 는 배열 요소의 최댓값) 인 카운팅 솔트
 	static int valueSetting(int[] arr, int[] temp, int ind, int i) {
 		for(int j = 0; j < temp[i]; j++) {
 			arr[ind++] = i;
