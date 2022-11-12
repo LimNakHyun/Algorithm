@@ -14,8 +14,8 @@ public class Main {
         //정수 n이 매개변수로 주어질 때,
         //n 이하의 홀수가 오름차순으로 담긴 배열을 리턴
 
-        int n = 10;     //[1, 3, 5, 7, 9] 리턴
-        // int n = 15;     //[1, 3, 5, 7, 9, 11, 13, 15] 리턴
+        int n = 10;     //answer = [1, 3, 5, 7, 9]
+        // int n = 15;     //answer = [1, 3, 5, 7, 9, 11, 13, 15]
 
         System.out.println("리턴된 배열: " + Arrays.toString(solution(n)));
     }
