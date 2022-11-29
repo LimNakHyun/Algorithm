@@ -1,0 +1,27 @@
+package problem.lv0.주사위의_개수;
+
+public class Main {
+    
+    static int solution(int[] box, int n) {
+        int answer = 1;
+        for(int i = 0; i < 3; i++) {
+            answer *= box[i] / n;
+        }
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        //직육면체 모양의 상자가 하나가 있는데
+        //이 상자에 정육면체 모양의 주사위를 최대한 많이 채우려 한다.
+        //상자의 가로, 세로, 높이가 저장되어있는 배열 box와
+        //주사위 모서리의 길이 정수 n이 매개변수로 주어졌을 때,
+        //상자에 들어갈 수 있는 주사위의 최대 개수를 리턴
+
+        int[] box = {1, 1, 1};
+        int n = 1;       //answer = 1
+
+        System.out.println("주사위의 개수: " + solution(box, n));
+
+    }
+
+}
