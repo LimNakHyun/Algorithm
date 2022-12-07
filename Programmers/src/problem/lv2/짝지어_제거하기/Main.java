@@ -1,6 +1,5 @@
 package problem.lv2.짝지어_제거하기;
 
-import java.util.Arrays;
 import java.util.Stack;
 
 public class Main {
