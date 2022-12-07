@@ -1,15 +1,12 @@
 package problem.lv2.영어_끝말잇기;
 
 import java.util.Arrays;
-import java.util.Stack;
 
 public class Main {
 
     // 몇번째 사람의 몇번째 차례에 끝나는지 체크
     static void numOrderSetting(int[] arr, int i, int n) {
-        // arr[0] = ((i + 1) % n == 0) ? n : (i + 1) % n;
         arr[0] = (i % n) + 1;
-        // arr[1] = ((i + 1) % n == 0) ? ((i + 1) / n) : ((i + 1) / n) + 1;
         arr[1] = (i / n) + 1;
     }
 
@@ -30,7 +27,6 @@ public class Main {
                     return true;
                 }
             }
-            System.out.println();
             System.out.println();
         }
         return false;
@@ -53,47 +49,18 @@ public class Main {
         int n = 2;
         String[] words = {"hello", "one", "even", "never", "now", "world", "draw"};
 
-        
         System.out.println("단어 확인: " + Arrays.toString(words));
-        
-        int[] answer = new int[2];    //[번호, 차례]
-        System.out.println(Arrays.toString(answer));
-        
-        boolean flag = false;
-        // Stack<String> stack = new Stack<>();
-        for(int i = 1; i < words.length; i++) {
-            // System.out.println(i + "번째 단어: " + words[i - 1]);
-            // System.out.println((i + 1) + "번째 단어: " + words[i]);
-            // System.out.println(i + "번째 단어의 마지막 글자 : " + words[i - 1].charAt(words[i - 1].length() - 1));
-            // System.out.println((i + 1) + "번째 단어의 첫번째 글자 : " + words[i].charAt(0));
-            // System.out.println("위의 둘은 같은가?: " + (words[i].charAt(0) == words[i - 1].charAt(words[i - 1].length() - 1)));
 
-            // if(words[i].charAt(0) != words[i - 1].charAt(words[i - 1].length() - 1)) {
-            //     // System.out.println((i + 1) + "번째 단어는 틀렸습니다. 끝말잇기를 종료합니다.");
-            //     // answer[0] = ((i + 1) % n == 0) ? n : (i + 1) % n;
-            //     // answer[1] = ((i + 1) % n == 0) ? ((i + 1) / n) : ((i + 1) / n) + 1;
-            //     numOrderSetting(answer, i, n);
-            //     break;
-            //     // System.out.println(words[i]);
-            // } 
-            // else {
-            //     // System.out.println(i + "번째 단어는 맞았습니다. 끝말잇기를 속행합니다.");
-            //     // System.out.println(words[i]);
-            //     for(int j = 0; j < i; j++) {
-            //         if(words[j].equals(words[i])) {
-            //             // answer[0] = ((i + 1) % n == 0) ? n : (i + 1) % n;
-            //             // answer[1] = ((i + 1) % n == 0) ? ((i + 1) / n) : ((i + 1) / n) + 1;
-            //             numOrderSetting(answer, i, n);
-            //             break;
-            //         }
-            //     }
-            // }
-            // System.out.println();
+        int[] answer = new int[2];    //[번호, 차례]
+        System.out.println("생성된 answer배열 확인: " + Arrays.toString(answer));
+
+        System.out.println("\n끝말잇기 시작");
+        boolean flag = false;
+        for(int i = 1; i < words.length; i++) {
             flag = neighborWordCheck(words, answer, i, n);
             if(flag) break;
         }
 
-        // System.out.println("스택 확인: " + stack);
         if(answer[0] == 0 && answer[1] == 0) {
             System.out.println("끝말잇기가 정상종료됨");
         } else {
