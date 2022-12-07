@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class Main {
     
-    static int solution(String[] s1, String[] s2, ArrayList list) {
+    static int solution(String[] s1, String[] s2, ArrayList<String> list) {
         int answer = 0;
         
         for(String s : s1) {
