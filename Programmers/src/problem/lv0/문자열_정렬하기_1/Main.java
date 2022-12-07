@@ -26,7 +26,7 @@ public class Main {
     static int[] solution(String my_string) {
         int[] answer = new int[numberCount(my_string)]; //2. my_string에 있는 숫자의 개수로 배열 생성
         appendNumber(answer, my_string);
-        BubbleSort.bubbleSort(answer, false);       //4. 배열에 넣은 숫자들을 BubbleSort로 정렬
+        BubbleSort.intBubbleSort(answer, false);       //4. 배열에 넣은 숫자들을 BubbleSort로 정렬
         return answer;
     }
     
