@@ -1,7 +1,5 @@
 package problem.lv0.가위_바위_보;
 
-import java.util.Arrays;
-
 public class Main {
     
     static String solution(String rsp) {
