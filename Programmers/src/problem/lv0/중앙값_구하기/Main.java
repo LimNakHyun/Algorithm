@@ -1,38 +1,14 @@
 package problem.lv0.중앙값_구하기;
 
+import java.util.Arrays;
+
 import library.sortingAlgorithm.BubbleSort;
 
 public class Main {
-    
-    // static int solution(int[] array) {
-    //     int temp = 0;
-
-    //     for(int i = 0; i < array.length - 1; i++) {
-    //         for(int j = i + 1; j < array.length; j++) {
-    //             if(array[i] > array[j]) {
-    //                 temp = array[j];
-    //                 array[j] = array[i];
-    //                 array[i] = temp;
-    //             }
-    //         }
-    //     }
-    //     return array[array.length / 2];
-    // }
 
     static int solution(int[] array) {
-        // int temp = 0;
 
-        // for(int i = 0; i < array.length - 1; i++) {
-        //     for(int j = i + 1; j < array.length; j++) {
-        //         if(array[i] > array[j]) {
-        //             temp = array[j];
-        //             array[j] = array[i];
-        //             array[i] = temp;
-        //         }
-        //     }
-        // }
-
-        BubbleSort.bubbleSort(array, false);
+        BubbleSort.intBubbleSort(array, false);
 
         return array[array.length / 2];
     }
@@ -44,7 +20,7 @@ public class Main {
 
         int[] array = {1, 2, 7, 10, 11};    //answer = 7;
 
-        System.out.println("답: " + solution(array));
+        System.out.println(Arrays.toString(array) +  " 의 중앙값: " + solution(array));
         
     }
 
