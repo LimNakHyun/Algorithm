@@ -1,3 +1,5 @@
+package problem.lv1.year2016;
+
 public class Main {
     static String[] c = {"THU", "FRI", "SAT" ,"SUN", "MON", "TUE", "WED"};
 
@@ -23,7 +25,7 @@ public class Main {
         int a = 5;
         int b = 24;
 
-        System.out.println(solution(a, b)); //2016년 5월 24일은 수요일이므로 TUE를 리턴
+        System.out.println("2016년 " + a + "월 " + b + "일의 요일: " + solution(a, b)); //2016년 5월 24일은 수요일이므로 TUE를 리턴
     }
 
 }
